@@ -1,0 +1,99 @@
+body {
+     background-color: rgb(255, 255, 255);
+     font-family: "Comic Sans MS", cursive, sans-serif	;
+     padding: 1%;     
+     display: flex;
+     justify-content: space-around;
+}
+
+#header{
+     font-size: 40px;
+     display: flex;
+     justify-content: space-around;
+}
+
+.container {
+     width: 95%;
+}
+
+.flex-box {
+     display: flex;
+     justify-content: space-around;
+     justify-items: center;
+}
+
+.flex-box img {
+     width: 20%;
+     height: 20%;
+     margin: 2%;
+     border-radius: 5%;
+     padding: 2%;
+}
+
+.flex-box img:hover {
+     box-shadow: 0px 10px 70px rgb(154, 2, 255);
+     transition: 0.4s;
+}
+
+#result {
+     font-size: 35px;
+     margin-top: 60%;
+}
+
+#button {
+     font-size: 18px;
+     color: white;
+     padding: 8% 15%;
+     outline: none;
+     border-radius: 10px;
+     background-color: rgb(0, 110, 250);
+     font-weight: 500;
+     font-family: "Comic Sans MS", cursive, sans-serif	;
+     margin-top: 25%;
+}
+
+.div {
+     display: grid;
+}
+
+
+
+@media only screen and (max-width:900px) {
+     #result {
+          font-size: 30px;
+          margin-top: 40%;
+     }
+     #button {
+          font-size: 15px;
+          padding: 8% 15%;
+     }
+}
+
+@media only screen and (max-width:600px) {
+     #header {
+          font-size: 20px;
+     }
+     .flex-box img:hover {
+          box-shadow: 0px 5px 30px rgb(154, 2, 255);
+     }
+     #result {
+          font-size: 15px;
+          margin-top: 50%;
+     }
+     #button {
+          font-size: 8px;
+          padding: 6% 13%;
+     }
+}
+
+@media only screen and (max-width:300px) {
+     #result {
+          font-size: 10px;
+          margin-top: 40%;
+     }
+     #button {
+          font-size: 4px;
+          padding: 6% 13%;
+     }
+}
+
